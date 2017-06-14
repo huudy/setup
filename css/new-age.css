@@ -254,7 +254,7 @@ section.download .badges .badge-link img {
   }
 }
 section.features .section-heading {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 section.features .section-heading h2 {
   margin-top: 0;
@@ -397,6 +397,11 @@ footer ul li a.active {
   background: -webkit-linear-gradient(#fdcc52, #fdc539);
   background: linear-gradient(#fdcc52, #fdc539);
 }
+.bg-secondary {
+  background: #8d5997;
+  background: -webkit-linear-gradient(#8d5997, #8d5997);
+  background: linear-gradient(#8d5997, #8d5997);
+}
 .text-primary {
   color: #fdcc52;
 }
@@ -407,6 +412,11 @@ footer ul li a.active {
 .btn-outline {
   color: white;
   border-color: white;
+  border: 1px solid;
+}
+.btn-full {
+  color: #fdcc52;
+  border-color: #fdcc52;
   border: 1px solid;
 }
 .btn-outline:hover,
